@@ -2,7 +2,7 @@ from turtle import *
 import turtle
 
 
-speed(50)
+speed(19090)
 width(7)
 bgcolor("green")
 
@@ -360,4 +360,57 @@ forward(12)
 left(90)
 forward(25)
 
+
+def tree():
+
+    color("saddlebrown")
+    begin_fill()
+    for i in range(2):
+        forward(40)
+        left(90)
+        forward(10)
+        left(90)
+    end_fill()
+    
+
+    forward(10)
+    left(90)
+    forward(5)
+
+    color("forestgreen")
+    begin_fill()
+    circle(25)
+    end_fill()
+    
+    right(90)
+
+
+penup()
+goto(-25,-200)
+pendown()
+tree()
+    
+
+penup()
+goto(200, -350)
+pendown()
+tree()
+
+
+penup()
+goto(300,-250)
+pendown()
+tree()
+
+
+penup()
+goto(-300,-250)
+pendown()
+tree()
+
+
+penup()
+goto(-200,-300)
+pendown()
+tree()
 exitonclick()
