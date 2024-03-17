@@ -1,6 +1,6 @@
 from turtle import *
 import turtle
-
+ 
 color("purple")
 speed(10)
 width(7)
@@ -11,7 +11,7 @@ left(90)
 #xazi 2
 forward(200)
 left(90)
-
+ 
 #xazi 3
 forward(200)
 left(90)
