@@ -5,9 +5,19 @@ surname = input("Enter your surname: ")
 age = int(input("Enter your age: "))
 place = input("Enter your country: ")
 
-info.append((name, surname, age, place))
+info.append(name)
+info.append(surname)
+info.append(age)
+info.append(place)
 
+print(info)
+
+print(info[0:2])
 print(info[1:3])
+print(info[0:3])
+print(info[1:4])
+
+
 
 #დავალება 2
 
